@@ -1,0 +1,191 @@
+:root{
+	--blue1:#d7e6f5;
+	--blueDark:#41596e;
+}
+body{
+	background-color: var(--blue1);
+	font-family: "Geneva";
+}
+
+.navbar{
+	margin:auto;
+        width: 80%;
+        margin-top: 10px;
+        border: 3px solid var(--blueDark);
+        border-radius: 15px;
+	padding: 10px;
+	font-family: "Geneva";
+}
+
+#weatherBody{
+	margin: auto;
+	width: 95%;
+	margin-top: 10px;
+	border: 3px solid var(--blueDark);
+	border-radius: 15px;
+	padding: 10px;
+}
+#homeBody{
+        margin:auto;
+        width:95%;
+        margin-top: 10px;
+        border: 3px solid var(--blueDark);
+        border-radius: 15px;
+        padding: 10px;
+}
+#searchBarRow{
+	margin:auto;
+	width: 75%;
+}
+#historyBody{
+	margin:auto;
+        width:95%;
+        margin-top: 10px;
+        border: 3px solid var(--blueDark);
+        border-radius: 15px;
+        padding: 10px;
+	display: block;
+}
+#historySearch{
+	margin:auto;
+	width:75%;
+}
+#locationName{
+	background-color: var(--blueDark);
+	color:#ffffff;
+	margin:auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	padding: 10px;
+	text-align: center;
+}
+#forecastDate{
+        background-color: var(--blueDark);
+        color:#ffffff;
+        margin:auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        padding: 10px;
+        text-align: center;
+}
+#locationInfo{
+	padding: 10px;
+	margin: auto;
+	display: block;
+	width: 50%;
+	text-align: center;
+}
+#forecast{
+	padding:10px;
+	margin: auto;
+	margin-top: 20px;
+}
+#leftBox{
+	display: none;
+}
+#rightBox{
+	display: none;
+}
+#myTable{
+	border: 1px solid var(--blueDark);
+	text-align: center;
+	padding: 5px;
+	table-layout: fixed;
+	width: 100%;
+}
+th{
+	background-color: white;
+	color: var(--blueDark);
+	width: 25%;
+}
+td{
+	width: 25%;
+}
+#locationInfo img{
+	align: center;
+}
+#locationInfo p{
+	align: center;
+}
+.JSONCol{
+	word-wrap: break-word;
+	font-size: 5px;
+}
+#historyTable{
+	border: 1px solid var(--blueDark);
+        text-align: center;
+        padding: 5px;
+        table-layout: fixed;
+        width: 100%;
+	margin-top: 10px;
+}
+#weatherBodyHistory{
+	display: none;
+        margin: auto;
+        width: 95%;
+        margin-top: 10px;
+        border: 3px solid var(--blueDark);
+        border-radius: 15px;
+        padding: 10px;
+}
+#myTableHistory{
+        border: 1px solid var(--blueDark);
+        text-align: center;
+        padding: 5px;
+        table-layout: fixed;
+        width: 100%;
+}
+#locationNameHistory{
+        background-color: var(--blueDark);
+        color:#ffffff;
+        margin:auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        padding: 10px;
+        text-align: center;
+}
+#forecastDateHistory{
+        background-color: var(--blueDark);
+        color:#ffffff;
+        margin:auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        padding: 10px;
+        text-align: center;
+}
+#locationInfoHistory{
+	padding: 10px;
+        margin: auto;
+        display: block;
+        width: 50%;
+        text-align: center;
+}
+#forecastHistory{
+        padding:10px;
+        margin: auto;
+        margin-top: 20px;
+}
+#checkAll{
+	margin-top:10px;
+}
+#checkAllLabel{
+	margin-top:10px;
+}
+#homePhoto img{
+	margin: auto;
+	display: block;
+	width: 50%;
+}
+#homeInfo{
+	padding: 10px;
+}
+#locationInfoHistory img{
+	align: center;
+}
+#locationInfoHistory p{
+        align: center;
+}
